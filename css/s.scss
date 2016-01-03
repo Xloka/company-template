@@ -204,7 +204,7 @@ section.section--center {
   padding: 20vh 0;
   text-align: center;
   background-attachment: fixed;
-background-size: cover;
+  background-size: cover;
   h1 {
     color: #fff;
     text-shadow: 1px 1px 5px #000;
@@ -212,18 +212,18 @@ background-size: cover;
 }
 //////////////////////// end ////////////////////////////
 //////////////////////// product -page //////////////////////
-.product-page{
-  background-image: url('../img/product-bg.jpg');
+.product-page {
+  background-image: url(../img/product-bg.jpg);
 }
 //////////////////////// end ////////////////////////////
 //////////////////////// about-page //////////////////////
-.about-page{
-  background-image: url('../img/about-bg.jpg');
+.about-page {
+  background-image: url(../img/about-bg.jpg);
 }
 //////////////////////// end ////////////////////////////
 //////////////////////// contact -page //////////////////////
-.contact-page{
-  background-image: url('../img/contact-bg.jpg');
+.contact-page {
+  background-image: url(../img/contact-bg.jpg);
 }
 .map {
   min-height: 300px;
@@ -231,51 +231,50 @@ background-size: cover;
     min-height: 300px;
   }
 }
-.contact-form{
-  h3{
-        margin: 0;
-        text-align: center;
-         font-size: 25px;
-         background-color: #3F51B5;
-         color: #fff;
-         padding: 80px 0px;
-         height: 100%;
-         position: relative;
-   }
-   form{
-     padding: 50px 30px;
-       text-align: center;
-       position: relative;
-       .mdl-textfield{
-         width: calc(100% - 15px);
-       }
-   }
+.contact-form {
+  h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+    background-color: #3F51B5;
+    color: #fff;
+    padding: 80px 0;
+    height: 100%;
+    position: relative;
+  }
+  form {
+    padding: 50px 30px;
+    text-align: center;
+    position: relative;
+    .mdl-textfield {
+      width: calc(100% - 15px);
+    }
+  }
 }
 //////////////////////// end //////////////////////
 //////////////////////// page //////////////////////
-.page.mdl-grid{
+.page.mdl-grid {
   margin: 0;
   padding: 0;
   margin-top: 50px;
-   > div{
+  > div {
     margin: 0;
   }
-   h3{
-         margin: 0;
-         text-align: center;
-          font-size: 25px;
-          background-color: #3F51B5;
-          color: #fff;
-          padding: 80px 0px;
-          height: 100%;
-          position: relative;
-    }
-  p{
-        padding: 20px 15px;
-        min-height: 200px;
+  h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+    background-color: #3F51B5;
+    color: #fff;
+    padding: 80px 0;
+    height: 100%;
+    position: relative;
+  }
+  p {
+    padding: 20px 15px;
+    min-height: 200px;
+  }
 }
-}
-
 //////////////////////// end ////////////////////////////
 //////////////////////// footer //////////////////////
 //////////////////////// end //////////////////////
